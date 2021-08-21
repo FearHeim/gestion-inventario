@@ -7,6 +7,13 @@
   margin: 0;
   height: 100%;
 }
+
+.logo{
+  padding-top:0.6em; 
+  padding-right: 3em;
+  height: 3em;
+  padding-left: 0.5em;
+}
 .NavLink-Active {
   border-bottom: 5px solid #d20425;
 }
