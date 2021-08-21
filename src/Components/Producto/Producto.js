@@ -19,17 +19,8 @@ function Producto() {
   const [valorBusqueda, setValorBusqueda] = useState({});
   return (
     <Container className="container container-user">
-      <Grid
-        container
-        justifyContent="space-between"
-        className="grid-container-add-user"
-      >
-        <Grid
-          item
-          container
-          justifyContent="space-between"
-          className="grid-item-produc-4"
-        >
+      <Grid container className="">
+        <Grid item container className="grid-item-produc-4" xs={12}>
           <Grid item className="grip-agrega-produc">
             <div className="grid-item-title-user">
               <Typography className="title">Agregar producto</Typography>
@@ -57,7 +48,6 @@ function Producto() {
             <Grid
               container
               className="grid-container-user-buscar"
-              justifyContent="space-between"
               alignItems="center"
             >
               <Grid item className="grid-item-user-label">
@@ -73,7 +63,6 @@ function Producto() {
               <Grid
                 item
                 className="grid-container-user-btn"
-                justifyContent="flex-end"
                 alignItems="center"
               >
                 <button
@@ -93,11 +82,9 @@ function Producto() {
             </Grid>
           </Grid>
         </Grid>
-        <Grid item className="grid-item-produc-6">
-          <Grid item className="grid-item-user-buscar">
-            <Grid item className="grid-item-user-tabla">
-              <TablaProducto stado={stado} valorBusqueda={valorBusqueda} />
-            </Grid>
+        <Grid item className="grid-item-produc-6" xs={12}>
+          <Grid item className="grid-item-user-tabla">
+            <TablaProducto stado={stado} valorBusqueda={valorBusqueda} />
           </Grid>
         </Grid>
       </Grid>
