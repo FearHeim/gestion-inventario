@@ -1,4 +1,6 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
+import "./NavBar.css";
 
 function NavBar() {
   return (
@@ -6,10 +8,14 @@ function NavBar() {
       <header className="header">
         <img src="" alt="Logo F12 Store"></img>
         <div>
-          <h1> Inicio</h1>
-        </div>
-        <div className="div_2">
-          <h2>Administrador</h2>
+          <NavLink
+            exact //saber donde estas exactamente
+            to="/" //aqui la ruta
+            className="nav-links"
+            activeClassName="NavLink-Active"
+          >
+            Inicio
+          </NavLink>
         </div>
       </header>
     </div>

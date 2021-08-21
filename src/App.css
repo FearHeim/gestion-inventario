@@ -1,31 +1,36 @@
-
+body {
+  background-color: #f2f2f2;
+}
+body a {
+  text-decoration: none;
+}
 .header {
   background-color: #191919;
   color: #ffffff;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   height: 3.5em;
   display: flex;
-  
+}
+.header a {
+  color: #ffffff;
 }
 
-.header h1{
+.header h1 {
   font-weight: 100;
   font-size: 1.5em;
   padding-top: 0.5em;
   padding-left: 1em;
 }
 
-.div_2{
+.div_2 {
   text-align: right;
-
 }
 
-.header h2{
+.header h2 {
   font-weight: 100;
   font-size: 1.5em;
   padding-top: 0.5em;
 }
-
 
 .App-link {
   color: #61dafb;
