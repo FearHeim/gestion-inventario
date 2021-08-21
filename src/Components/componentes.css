@@ -1,0 +1,204 @@
+.container {
+  height: calc(100vh - 3.5em);
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+.container a {
+  color: #191919;
+}
+.grid-container-admin {
+  width: 90% !important;
+  background-color: #fff;
+  padding: 3em;
+  padding-bottom: 8em;
+  border-radius: 50px;
+}
+
+.div-logo {
+  background-color: #191919;
+  padding: 15px;
+  border-radius: 30px;
+  margin-bottom: 1em;
+}
+.grid-item-admin img {
+  width: 131px;
+  height: 131px;
+}
+
+.grid-item-admin {
+  width: 100%;
+}
+
+.grid-item-title {
+  margin-bottom: 5em;
+  border-bottom: 3px solid #d20425;
+  display: block;
+  width: fit-content;
+}
+.grid-item-title-user {
+  margin-bottom: 2em;
+  border-bottom: 3px solid #d20425;
+  display: block;
+  width: fit-content;
+}
+
+.grid-container-adminLogo {
+  width: 100%;
+  height: 100%;
+}
+
+h3 {
+  text-align: center;
+}
+
+.grid-item-admin-btn {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.grid-item-admin-btn button {
+  width: 200px;
+  height: 40px;
+  background-color: #191919;
+  color: #fff;
+  text-align: center;
+  border-radius: 20px;
+  border: none;
+}
+
+.grid-item-admin-btn button:hover {
+  cursor: pointer;
+}
+
+.grid-item-user-4,
+.grid-item-user-6 {
+  background-color: #fff;
+}
+
+.grid-item-user-4 {
+  width: 30%;
+  padding: 20px;
+}
+
+.grid-item-user-6 {
+  width: 67%;
+  padding: 20px;
+}
+
+/**/
+.grid-item-produc-4,
+.grid-item-produc-6 {
+  background-color: #fff;
+}
+.grid-item-produc-4 {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 50px !important;
+}
+
+.grid-item-produc-6 {
+  width: 100%;
+  padding: 20px;
+}
+.grip-agrega-produc {
+  width: 25%;
+  padding: 20px;
+}
+.grip-busca-produc {
+  width: 70%;
+  padding: 20px;
+}
+.TableHead th {
+  font-weight: bold;
+}
+/**/
+
+/**/
+.ModalAgregaProduct {
+  width: 80%;
+  background: #fff;
+  padding: 30px;
+}
+/**/
+
+.grid-container-add-user {
+  height: 90%;
+  margin: auto;
+}
+.grid-item-info {
+  width: 100%;
+}
+
+.container input {
+  height: 40px;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  outline: none;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border: 1px solid #c1c1c1;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+}
+
+.grid-item-user-btn .grid-container-user-btn {
+  width: 100%;
+  height: 100%;
+}
+
+.grid-item-user-btn .grid-container-user-btn button {
+  width: 90px;
+  padding: 16px;
+  background-color: #191919;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+}
+.user-edit input,
+select {
+  width: 100%;
+  height: 40px;
+  outline: none;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border: 1px solid #c1c1c1;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+}
+.grid-container-user-btn button {
+  width: 90px;
+  padding: 16px;
+  background-color: #191919;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.grid-item-user-buscar {
+  width: 100%;
+}
+
+.grid-container-user-buscar {
+  width: 60% !important;
+}
+
+.grid-container-user-buscar .grid-item-user-input input {
+  border: 1px solid #d20425;
+  outline: none;
+}
+
+.grid-container-user-buscar .grid-container-user-btn button {
+  background-color: #191919;
+  color: #fff;
+  padding: 16px;
+  border: 1px solid #707070;
+  border-radius: 10px;
+}

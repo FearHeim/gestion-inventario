@@ -5,11 +5,11 @@ import userLogo from "../../assets/img/user_vector.png";
 import categoryLogo from "../../assets/img/category_vector.png";
 import productoLogo from "../../assets/img/product_vector.png";
 
-import "./Inicio.css";
+import "../componentes.css";
 
 function Inicio() {
   return (
-    <Container className="container-admin">
+    <Container className="container">
       <Grid container className="grid-container-admin">
         <Grid item className="grid-item-admin grid-item-admin-title">
           <div className="grid-item-title">
@@ -23,7 +23,7 @@ function Inicio() {
             justifyContent="space-evenly"
             alignItems="center"
           >
-            <Link to={`/Usuario`}>
+            <Link to={`/Usuarios`}>
               <Grid item>
                 <div className="div-logo">
                   <img src={userLogo} alt="Logo-usuario"></img>
