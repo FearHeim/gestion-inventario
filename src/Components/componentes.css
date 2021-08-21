@@ -36,6 +36,11 @@
   display: block;
   width: fit-content;
 }
+
+.grid-item-title .title{
+  font-size: 2.5em;
+}
+
 .grid-item-title-user {
   margin-bottom: 2em;
   border-bottom: 3px solid #d20425;
